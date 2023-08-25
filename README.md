@@ -1,9 +1,10 @@
-# analisis_data_criptomonedas
-Extracción y Análisis de la Api de CoinGecko Para Criptomonedas
+# Segundo proyecto individual para el BootCamp de Soy Henry.
+
+## Extracción y Análisis de la Api de CoinGecko Para Criptomonedas
 
 Readme para el proyecto de data analitycs
 
-# Segundo proyecto individual para el BootCamp de Soy Henry.
+
 
 ### Objetivo
 Realizar un análisis utilizando datos de la API de CoinGecko para entender mejor el mercado de criptomonedas.
@@ -35,8 +36,8 @@ Como resultado, tenemos los siguientes .csv:
 
 
 ### Detalles de los Dataframes
-A continuación un resúmen de los dataframes construidos:
-1-df_global_data
+A continuación un resúmen de los dataframes construidos:  
+1-**df_global_data.**  
 Datos globales de las criptomonedas en la página con las siguientes columnas:
 **criptomonedas_activas:** El número de criptomonedas que están activas en el mercado, es decir, que se pueden comprar, vender o intercambiar.
 **icos_activas:** El número de ofertas iniciales de monedas que están en curso, es decir, que aún no han finalizado su periodo de recaudación de fondos.
@@ -46,7 +47,7 @@ Datos globales de las criptomonedas en la página con las siguientes columnas:
 
 Se eligió el valor de las criptomonedas en la columna precio, el dólar($) y el euro(€), por ser monedas de referencia global. Sin embargo, hay otras monedas que podrían establecerse como referencia mundial, debido a múltiples factores como el crecimiento económico sostenido en el tiempo de una nación, su solidez económica y su estabilidad política. 
 
-2-df_precio_10_monedas
+2-**df_precio_10_monedas.**  
 Datos relevantes de las 10 primeras criptomonedas.  
 **nombre:**							
 **dolar:** Es el precio de la criptomoneda en dólares estadounidenses. Es una medida del valor de mercado de la criptomoneda en relación con la moneda más utilizada y aceptada del mundo.
@@ -62,38 +63,38 @@ Datos relevantes de las 10 primeras criptomonedas.
 **ultima_actualizacion:** Última fecha de actualización.
 
 
-3-df_historico_primeras4_monedas.  
+3-**df_historico_primeras4_monedas.**    
 **fecha:** Fecha del dato.  
 **precio_btc:** Precio histórico del bitcoin.  
 **mercado_cap_btc:** Capitalización del mercado de bitcoin.  
 **total_volumen_btc:** Volúmen total de transacciones del bitcoin.  
 **precio_ethereum:** Precio histórico de ethereum.  
-**mercado_cap_ethereum:**Capitalización del mercado de ethereum.  
+**mercado_cap_ethereum:** Capitalización del mercado de ethereum.  
 **total_volumen_ethereum:** Volúmen total de transacciones del ethereum.  
 **precio_tether:** Precio histórico de tether.  
 **mercado_cap_tether:** Capitalización del mercado de tether.  
-**total_volumen_tether:**Volúmen total de transacciones del tether.  
+**total_volumen_tether:** Volúmen total de transacciones del tether.  
 **precio_binance:** Precio histórico de binance.  
-**mercado_caps_binance:**Capitalización del mercado de binance.  
-**total_volumen_binance:**Volúmen total de transacciones del binance.  
+**mercado_caps_binance:** Capitalización del mercado de binance.  
+**total_volumen_binance:** Volúmen total de transacciones del binance.  
 
 
 
-4-df_olhc_btc
+4-**df_olhc_btc.**  
 **fecha:** Fecha
 **precio_apertura_bitcoin:** Precio de apertura.  
 **precio_maximo_bitcoin:** Precio máximo.  
 **precio_minimo_bitcoin:** Precio mínimo.  
 **precio_cierre_bitcoin:** Precio de cierre.
 
-5-df_olhc_ethereum
-**Igual al anterior, pero para ethereum.**  
+5-**df_olhc_ethereum**  
+Igual al anterior, pero para ethereum.  
 
-6-df_olhc_tether
-**Igual al primero. pero para el tether.**  
+6-**df_olhc_tether**
+Igual al primero. pero para el tether.
 
-7-df_olhc_binance.   
-**Igual al primero. pero para el binace.**  
+7-**df_olhc_binance.**  
+Igual al primero. pero para el binace.
 
 
 **enlace al unforme:** https://drive.google.com/file/d/1uyFkoGIuvIRqx3fRFE6c1BWHaQQ4vGaf/view?usp=sharing
